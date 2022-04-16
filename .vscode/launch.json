@@ -9,10 +9,10 @@
             "type": "python",
             "request": "launch",
             "program": "${file}",
-            // "console": "integratedTerminal",
-            "console": "externalTerminal",
-            "cwd": "$[fileDirname]",
-            "stopOnEntry": true
+            "console": "internalConsole",
+            // "console": "externalTerminal",
+            // "cwd": "${fileDirname}",
+            // "stopOnEntry": true
         }
     ]
 }
